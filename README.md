@@ -18,7 +18,7 @@ pip install pyspark
 
 ## Usage
 ```
-1. Clone the repository: ' git clone https://github.com/angadbawa/Who-is-Who-s-Friend-.git '
+1. Clone the repository: git clone https://github.com/angadbawa/Who-is-Who-s-Friend-.git
 2. Open the friend_recommend.ipynb Jupyter Notebook.
 3. Modify the input file path in the first code cell to point to your input file.
 4. Run the remaining code cells to generate the recommendations.
@@ -27,13 +27,15 @@ pip install pyspark
 
 
 ## Input
-
+```
 The output will be a text file containing a list of recommended friends for each user. The file will be located in the 'Result'  directory and will be named part-*, where * is a number indicating the partition number. Each line in the file will contain a string in the following format:
 'friend_data.txt' is the input file containing the social network graph.
+```
 
 ## Output
-
+```
 The output will be a text file containing a list of recommended friends for each user. The file will be located in the 'Result'  directory and will be named part-*, where * is a number indicating the partition number. Each line in the file will contain a string in the following format:
+``` 
 
 ```
 (USER_ID, [REC_0, REC_1, ... REC_9])
